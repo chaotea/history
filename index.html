@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>History</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" v-on:keyup.right="next" v-on:keyup.left="previous">
+        <div class="wrapper">
+            <h2 class="rank" v-bind:class="{ invisible: hideRank }">{{ rank }}.</h2>
+        </div>
+        <div class="main">
+            <span class="name">{{ name }}</span>
+            <span class="epithet">{{ epithet }}</span>
+            <h2 class="titles">{{ titles }}</h2>
+            <p class="description">{{ description }}</p>
+            <blockquote class="quote" v-show="quote != null">{{ quote }}</blockquote>
+            <p class="intro" v-show="counter == 0"></p>
+        </div>
+        <div class="right icon-arrow-right" v-on:click="next" v-show="counter != numPeople + 1"></div>
+        <div class="left icon-arrow-left" v-on:click="previous" v-show="counter != 0"></div>
+    </div>
+    <script src="people.json"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+#Rome
+Julius Caesar
+*Augustus
+Constantine the Great
+Justinian the Great
+Alexios
+
+#Greece
+*Alexander the Great
+
+#Persia
+*Cyrus the Great
+
+#England
+Alfred the Great
+*William the Conqueror
+
+#France
+Charles Martel
+Charlemagne
+*Napoleon
+
+#Russia
+Ivan the Terrible
+Peter the Great
+
+#China
+*Qin Shi Huang
+
+#Ottomans
+*Mehmed the Conqueror
+Selim the Grim
+Suleiman the Magnificent
+
+#Turkic-Mongols
+*Genghis Khan
+*Attila the Hun
+*Timur the Lame
+
+#WW2
+Hitler
+Stalin
+Mao
+Churchill
+FDR
+
+#Other
+Sun Tzu
+Confucius
+Karl Marx
+Muhammad
