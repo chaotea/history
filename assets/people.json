@@ -1,0 +1,106 @@
+people = {
+	"1": {
+		"name": "Genghis Khan",
+		"epithet": null,
+		"titles": [
+			"Great Khan of the Mongol Empire"
+		],
+		"quote": null,
+		"description": "Genghis Khan was the leader of the Mongols and founder the Mongol Empire, the largest empire in history. He conquered most of Asia and northeastern Europe, and his greatest feats include the invasions of China and Persia and the subjugation of the Russian Principalities. A fearsome leader and brilliant strategist, Genghis Khan was the greatest conqueror the world has ever seen."
+	},
+	"2": {
+		"name": "Alexander",
+		"epithet": "the Great",
+		"titles": [
+			"King of Macedonia",
+			"Hegemon of the Hellenic League",
+			"King of Persia",
+			"Pharoah of Egypt",
+			"King of Asia"
+		],
+		"quote": "A tomb now suffices him for whom the whole world was not enough.",
+		"description": "Alexander was a legendary military leader who ascended to the throne of Macedonia at the age of 20. In the next 10 years, he invaded and conquered most of the civilized world, including the Persian Empire and India. He died suddenly in Babylon, in the midst of preparing to invade Arabia."
+	},
+	"3": {
+		"name": "Augustus",
+		"epithet": null,
+		"titles": [
+			"Emperor of Rome"
+		],
+		"quote": null,
+		"description": "Augustus was the first Emperor of Rome, the heir of Julius Caesar and the founder of the Principate. He expanded the Roman Empire greatly, conquering Egypt, Dalmatia, Pannonia, and southern Germania, as well as expanding territories in Africa and completing the conquest of Hispania."
+	},
+	"4": {
+		"name": "Timur",
+		"epithet": "the Lame",
+		"titles": [
+			"Padishah of the Timurid Empire",
+			"the Sword of Islam"
+		],
+		"quote": null,
+		"description": "Timur the Lame was the founder of the Timurid Empire, who conquered most of Western and Central Asia, defeating the Ottomans, the Mamluks, and the Delhi Sultanate. He was the spiritual heir to Genghis Khan, and by the end of his reign, his empire encompassed the lands of the Chagatai Khanate, the Ilkhanate, and the Golden Horde."
+	},
+	"5": {
+		"name": "Qin Shi Huang",
+		"epithet": null,
+		"titles": [
+			"Emperor of China",
+			"the Son of Heaven"
+		],
+		"quote": null,
+		"description": "In the year 221 BC, King Zhao Zheng of Qin became the first Emperor of China, having defeated all of the rival kingdoms opposing him. He was the first to unite China under a single ruler, and expanded the lands of China Proper with the conquests of the Yue tribes to the south and the nomads to the north."
+	},
+	"6": {
+		"name": "Attila",
+		"epithet": "the Hun",
+		"titles": [
+			"King of the Huns",
+			"the Scourge of God"
+		],
+		"quote": null,
+		"description": "Attila the Hun was the fearsome leader of the Huns. He led raids into the Balkans, Greece, Italy, and Gaul, and forced the Roman Emperors to pay large sums of gold as tribute. His empire spanned from Germania to the Caspian Sea, and included many different tribes and nomadic hordes."
+	},
+	"7": {
+		"name": "Napoleon Bonaparte",
+		"epithet": null,
+		"titles": [
+			"Emperor of France",
+			"King of Italy",
+			"Protector of the Confederation of the Rhine"
+		],
+		"quote": null,
+		"description": "Napoleon was a brilliant general who created the first French Empire and conquered most of Europe during the Napoleonic Wars. His greatest victory at the Battle of Austerlitz resulted in the dissolution of the Holy Roman Empire and the end of the Third Coalition."
+	},
+	"8": {
+		"name": "Mehmed",
+		"epithet": "the Conqueror",
+		"titles": [
+			"Sultan of the Ottoman Empire"
+		],
+		"quote": null,
+		"description": "On May 29, 1453, Mehmed the Conqueror captured the city of Constantinople and ended the Byzantine Empire. He would go on to conquer the Balkan Kingdoms and the Anatolian Beyliks before dying on the way to invade Italy."
+	},
+	"9": {
+		"name": "Cyrus",
+		"epithet": "the Great",
+		"titles": [
+			"Shahanshah of Persia",
+			"King of Lydia",
+			"King of Babylon",
+			"King of Sumer and Akkad",
+			"King of the Four Corners of the World"
+		],
+		"quote": null,
+		"description": "Cyrus the Great was the founder of the first Persian Empire, who conquered Babylon and Lydia. His empire was the largest in history at its creation, and stretched from Anatolia to the Indus Valley."
+	},
+	"10": {
+		"name": "William",
+		"epithet": "the Conqueror",
+		"titles": [
+			"King of England",
+			"Duke of Normandy"
+		],
+		"quote": null,
+		"description": "In the year 1066, Duke William of Normandy crossed the English Channel and defeated Harold Godwinson to become the King of England. He was the last successful invader of the British Isles in history."
+	}
+}

@@ -2,7 +2,8 @@ let app = new Vue({
 	el: "#app",
 	data: {
 		counter: 0,
-		name: "The Conquerors",
+		intro: "The Conquerors",
+		name: null,
 		epithet: null,
 		titles: null,
 		description: null,
@@ -15,24 +16,18 @@ let app = new Vue({
 		rank: function() {
 			return this.numPeople - this.counter + 1
 		},
-		hideRank: function() {
+		showIntro: function() {
 			return (this.counter == 0 || this.counter == this.numPeople + 1)
 		}
 	},
 	methods: {
 		getData: function() {
 			if (this.counter == 0) {
-				this.name = "The Conquerors"
-				this.epithet = null
-				this.titles = null
-				this.description = null
-				this.quote = null
+				this.clearData()
+				this.intro = "The Conquerors"
 			} else if (this.counter == this.numPeople + 1) {
-				this.name = "The End."
-				this.epithet = null
-				this.titles = null
-				this.description = null
-				this.quote = null
+				this.clearData()
+				this.intro = "The End."
 			} else {
 				this.name = people[this.rank]["name"]
 				this.epithet = people[this.rank]["epithet"]
@@ -47,6 +42,13 @@ let app = new Vue({
 					this.titles = titles.slice(0, titles.length - 1).join(", ") + ", and " + titles[titles.length-1]
 				}
 			}
+		},
+		clearData: function() {
+			this.name = null
+			this.epithet = null
+			this.titles = null
+			this.description = null
+			this.quote = null
 		},
 		next: function() {
 			if (this.counter < this.numPeople + 1) {
