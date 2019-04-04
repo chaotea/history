@@ -10,8 +10,8 @@
 
 .rank-wrapper {
     position: fixed;
-    left: 20%;
-    top: 25%;
+    top: 24%;
+    left: 15%;
     width: 5%;
     padding-top: 2px;
     color: #111111;
@@ -32,12 +32,16 @@
 
 .main {
     position: fixed;
-    left: 25%;
+    left: 20%;
     top: 25%;
-    width: 50%;
+    width: 60%;
     color: #111111;
     font-family: Times, serif;
     text-align: left;
+}
+
+.text-wrapper {
+    width: 80%;
 }
 
 .intro {
@@ -53,19 +57,22 @@
 }
 
 .name {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
 .epithet {
     margin-left: 0.8vw;
+    padding-right: 2rem;
     color: #ff0000;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
 .titles {
     margin: 0.25rem 0px 0px 0px;
+    padding-right: 2rem;
+    color: #202020;
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 1.2;
@@ -74,7 +81,9 @@
 .quote {
     margin: 1rem 0px 0px 0px;
     padding-left: 1rem;
+    padding-right: 2rem;
     border-left: 2px solid #111111;
+    color: #323232;
     font-size: 1.2rem;
     font-style: italic;
     line-height: 1.2;
@@ -85,8 +94,19 @@
 
 .description {
     margin: 1rem 0px 0px 0px;
+    padding-right: 2rem;
+    color: #323232;
     font-size: 1.2rem;
+    text-align: justify;
     line-height: 1.2;
+}
+
+.image {
+    position: absolute;
+    top: 2vh;
+    right: 0px;
+    width: 20%;
+    border-radius: 5px;
 }
 
 .left {

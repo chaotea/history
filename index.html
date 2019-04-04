@@ -12,12 +12,15 @@
             <h2 class="rank" v-bind:class="{ invisible: showIntro }">{{ rank }}.</h2>
         </div>
         <div class="main">
-            <h1 class="intro" v-show="showIntro">{{ intro }}</h1>
-            <span class="name">{{ name }}</span>
-            <span class="epithet">{{ epithet }}</span>
-            <h2 class="titles">{{ titles }}</h2>
-            <blockquote class="quote" v-show="quote != null">{{ quote }}</blockquote>
-            <p class="description">{{ description }}</p>
+            <div class="text-wrapper">
+                <h1 class="intro" v-show="showIntro">{{ intro }}</h1>
+                <span class="name">{{ name }}</span>
+                <span class="epithet">{{ epithet }}</span>
+                <h2 class="titles">{{ titles }}</h2>
+                <blockquote class="quote" v-show="quote != null">{{ quote }}</blockquote>
+                <p class="description">{{ description }}</p>
+            </div>
+            <img class="image" v-bind:src="image">
         </div>
         <div class="right icon-arrow-right" v-on:click="next" v-show="counter != numPeople + 1"></div>
         <div class="left icon-arrow-left" v-on:click="previous" v-show="counter != 0"></div>

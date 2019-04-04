@@ -7,7 +7,8 @@ let app = new Vue({
 		epithet: null,
 		titles: null,
 		description: null,
-		quote: null
+		quote: null,
+		image: null
 	},
 	computed: {
 		numPeople: function() {
@@ -33,6 +34,7 @@ let app = new Vue({
 				this.epithet = people[this.rank]["epithet"]
 				this.description = people[this.rank]["description"]
 				this.quote = people[this.rank]["quote"]
+				this.image = people[this.rank]["image"]
 				let titles = people[this.rank]["titles"]
 				if (titles.length == 1) {
 					this.titles = titles[0]
@@ -49,6 +51,7 @@ let app = new Vue({
 			this.titles = null
 			this.description = null
 			this.quote = null
+			this.image = null
 		},
 		next: function() {
 			if (this.counter < this.numPeople + 1) {
