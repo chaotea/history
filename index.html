@@ -4,7 +4,18 @@
     <title>The Conquerors</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/vue.min.js"></script>
+    <link rel="preload" href="assets/images/alexander.jpg" as="image">
+    <link rel="preload" href="assets/images/attila.jpg" as="image">
+    <link rel="preload" href="assets/images/augustus.jpg" as="image">
+    <link rel="preload" href="assets/images/cyrus.jpg" as="image">
+    <link rel="preload" href="assets/images/genghis.jpg" as="image">
+    <link rel="preload" href="assets/images/mehmed.jpg" as="image">
+    <link rel="preload" href="assets/images/napoleon.jpg" as="image">
+    <link rel="preload" href="assets/images/qin.jpg" as="image">
+    <link rel="preload" href="assets/images/timur.jpg" as="image">
+    <link rel="preload" href="assets/images/william.jpg" as="image">
+    <link rel="preload" href="assets/js/vue.min.js" as="script">
+    <link rel="preload" href="assets/js/main.js" as="script">
 </head>
 <body>
     <div id="app" v-on:keyup.right="next" v-on:keyup.left="previous">
@@ -26,6 +37,7 @@
         <div class="left icon-arrow-left" v-on:click="previous" v-show="counter != 0"></div>
     </div>
     <script src="assets/people.json"></script>
+    <script src="assets/js/vue.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
